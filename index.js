@@ -23,11 +23,11 @@ function calculate(){
     // console.log("Rate of 1-inch : " + ratePerInch);
 
 
-    document.getElementById('rateBedsheet').textContent = rateOfBedsheet;
-    document.getElementById('ratePillowCutting').textContent = rateOfPillowCutting;
-    document.getElementById('ratePillow').textContent = ratePillow;
+    document.getElementById('rateBedsheet').textContent = rateOfBedsheet.toFixed(2);
+    document.getElementById('ratePillowCutting').textContent = rateOfPillowCutting.toFixed(2);
+    document.getElementById('ratePillow').textContent = ratePillow.toFixed(2);
     document.getElementById('noPillow').textContent = noPillow;
-    document.getElementById('rateInch').textContent = ratePerInch;
+    document.getElementById('rateInch').textContent = ratePerInch.toFixed(2);
 
 }
 
