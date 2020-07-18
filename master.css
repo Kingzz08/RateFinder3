@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Kaushan Script';
+    font-size: 5rem;
+}
+
+table{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.container{
+    text-align: justify;
+}
+
+.tab{
+    text-align: center;
+}
+
+.section{
+    text-align: center;
+    padding-left: 30px;
+}
+
+input{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+}
+

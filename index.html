@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RateFinder</title>
+
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="jumbotron">
+        <h1 class="title">RateFinder</h1>
+    </div>
+    
+    <div class="section row">
+        <div class="col-sm-4">
+            <input id="metreOfRoll" name="mor" type="number" placeholder="Enter the Total Metre of the cloth..."><br><hr>
+            <input id="pcsOfBedsheet" name="pob" type="number" placeholder="Enter the no. of Pcs for Pillow Cutting..."><br><hr>
+            <input type="number" name="poc" placeholder="Enter the no. of Pcs for Pillow Cutting..." id="pcsOfPillowCutting"><br><hr>
+            <input type="number" id="rate" placeholder="Enter the Rate of the cloth per Metre..."><br><hr>
+            <input type="number" id="tax" placeholder="Enter the Tax rate..."><br><hr>
+        </div>
+        <div class="butt col-sm-2">
+            <button class="btn btn-outline-dark" id="go">GO CORONA !!</button><br><hr>
+        </div>
+        <div class="col-sm-6">
+            <table>
+                <tr>
+                    <td><h3>Rate of Bedsheet </h3></td>
+                    <td><h3>&nbsp;   :   &nbsp;</h3></td>
+                    <td><h3>Rs <span id="rateBedsheet">0</span></h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Rate of Pillow Cutting </h3></td>
+                    <td><h3>&nbsp;   :   &nbsp;</h3></td>
+                    <td><h3>Rs <span id="ratePillowCutting">0</span></h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Rate of Pillow </h3></td>
+                    <td><h3>&nbsp;   :   &nbsp;</h3></td>
+                    <td><h3>Rs <span id="ratePillow">0</span></h3></td>
+                </tr>
+                <tr>
+                    <td><h3>No. of Pillow </h3></td>
+                    <td><h3>&nbsp;   :   &nbsp;</h3></td>
+                    <td><h3><span id="noPillow">0</span> Pcs</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Rate of 1-inch </h3></td>
+                    <td><h3>&nbsp;   :   &nbsp;</h3></td>
+                    <td><h3>Rs <span id="rateInch">0</span></h3></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
